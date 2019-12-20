@@ -6,7 +6,7 @@
 
 import sys
 from key_value.help import key_value_help,key_value_invalid
-from key_value.models import set_value,get_value,get_array,push_array,pop
+from key_value.models import set_value,get_value,get_array,push_array,pop,delete
 
 def main():
     args = sys.argv[1:]
@@ -31,6 +31,9 @@ def main():
         elif args[0]=='deque' or args[0]=='Deque' or args[0]=='DEQUE':
             keys=args[1:]
             pop(keys,0)
+        elif args[0]=='delete' or args[0]=='Delete' or args[0]=='DELETE':
+            keys=args[1:]
+            delete(keys)
         else:
             key_value_invalid()
     else:

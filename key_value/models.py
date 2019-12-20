@@ -25,13 +25,6 @@ def get(key):
     return l[0]
 
 
-def update(key,value):
-    if check_exists(key):
-        key=(value,key,)
-        c.execute('''UPDATE key_value SET value = ? WHERE key = ?;''',key)
-        conn.commit()
-    else:
-        print("Key-Value Pair Doesn't Exists")
 
 
 
@@ -136,15 +129,58 @@ def push_array(key,values):
     else:
         print("Key-Value Pair doesn't Exists")
 
+
+
 def pop(keys,index):
     if len(keys)==0:
         print("Sorry Keys Not Found !")
+        return False
     else:
         try:
             index=int(index)
         except:
-            
+            print("Index must be Integer")
+            return False
         for i in keys:
             out=check_exists(i)
             if out:
-                l=list(out.strip().split(",")) 
+                l=list(out.strip().split(","))
+                if index>=len(l) or index<-len(l):
+                    print("Index Out of Bounds")
+                else:
+                    val=l[index]
+                    l.pop(index)
+                    print(val)
+                    s=','.join(l)
+                    update(i,s)
+
+            else:
+                print("Key Not Found !")
+        return True
+            
+
+
+
+def update(key,value):
+    if check_exists(key):
+        key=(value,key,)
+        c.execute('''UPDATE key_value SET value = ? WHERE key = ?;''',key)
+        conn.commit()
+    else:
+        print("Key-Value Pair Doesn't Exists")
+
+
+def delete(keys):
+    if len(keys)==0:
+        print("Sorry Keys Not Found !")
+        return False
+    else:
+        for key in keys:
+            if check_exists(key):
+                key5=(key,)
+                c.execute('''DELETE FROM key_value WHERE key = ?''',key5)
+                conn.commit()
+            else:
+                print("Key Not Found ! - ",key)
+    # print("Key-Value Pair Deleted !")
+    return True
