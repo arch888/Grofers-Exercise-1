@@ -1,0 +1,3 @@
+[console_scripts]
+key_value = key_value.__main__:main
+
