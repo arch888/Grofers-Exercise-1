@@ -6,7 +6,7 @@ from setuptools import setup
 
 
 setup(
-    name = 'Grofers-Exercise-1',
+    name = 'key_value',
     version = '0.1.0',
     packages = ['key_value'],
     entry_points = {
