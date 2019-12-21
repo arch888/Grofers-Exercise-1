@@ -352,3 +352,8 @@ Entry Deleted Successfully !
 ### Screenshots & Video
 
 Screenshots of almost all cases can be found [here](/screenshots). Video for the same can be found [here](#not_found)
+
+> Feel free to reach out to me via email. Shoot your doubts at dwevediar@gmail.com
+
+# Thank You !
+
