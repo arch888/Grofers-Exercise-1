@@ -35,7 +35,7 @@ def get_value(keys):
     for i in keys:
         out=get(i)
         if out:
-            print(out)
+            print(i," - ",out)
     return True
 
 
@@ -53,7 +53,7 @@ def get_array(key,index):
             print("Index Out of Range")
             return False
         else:
-            print(l[index])
+            print(key,"[",index,"]",l[index])
             return l[index]
     else:
         print("Sorry Data Not Found !")
@@ -150,7 +150,7 @@ def pop(keys,index):
                 else:
                     val=l[index]
                     l.pop(index)
-                    print(val)
+                    print(i," - ",val)
                     s=','.join(l)
                     update(i,s)
 
