@@ -20,5 +20,5 @@ def key_value_help():
 
 
 def key_value_invalid():
-    print("Sorry Invalid Commond")
+    print("Sorry Invalid Command")
     key_value_help()

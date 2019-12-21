@@ -21,10 +21,16 @@ def main():
             get_value(keys)
         elif args[0]=='getArray' or args[0]=='getarray':
             keys=args[1:]
-            get_array(keys[0],keys[1])
+            if len(keys)>=2:
+                get_array(keys[0],keys[1])
+            else:
+                print("Key/Index Not Found !")
         elif args[0]=='push' or args[0]=='Push' or args[0]=='PUSH' or args[0]=='Enque' or args[0]=='enque' or args[0]=='ENQUE':
             keys=args[1:]
-            push_array(keys[0],keys[1:])
+            if len(keys)>=2:
+                push_array(keys[0],keys[1:])
+            else:
+                print("Key/Value Not Found !")
         elif args[0]=='pop' or args[0]=='Pop' or args[0]=='POP':
             keys=args[1:]
             pop(keys,-1)
