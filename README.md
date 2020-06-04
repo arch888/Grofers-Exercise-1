@@ -101,7 +101,6 @@ This command will give you output something like this -
 
 ```
 Hello Team !
-Firstly I would like to thank you for giving me this opportunity ! 
 Let's Dive Deep and see the Features of this App - 
 
 
