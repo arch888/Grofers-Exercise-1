@@ -6,3 +6,6 @@ crash.log
 
 # For built boxes
 *.box
+
+# Static files
+key_value_BST/static/*
