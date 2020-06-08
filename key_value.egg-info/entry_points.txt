@@ -1,4 +1,0 @@
-[console_scripts]
-key_value = key_value_BST.__main__:main
-key_value_DB = key_value.__main__:main
-

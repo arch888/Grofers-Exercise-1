@@ -1,6 +1,6 @@
 ## Key-Value Pair Store
 
-[![GitHub license](https://img.shields.io/github/license/arch888/key_value?logo=github&)](https://github.com/arch888/key_value/blob/master/LICENSE) [![GitHub last commit](https://img.shields.io/github/last-commit/arch888/key_value?logo=github)](https://github.com/arch888/key_value/) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/vinitshahdeo/ParkingLot?logo=snyk&color=green)
+[![GitHub license](https://img.shields.io/github/license/archit-dwevedi/key_value?logo=github&)](https://github.com/archit-dwevedi/key_value/blob/master/LICENSE) [![GitHub last commit](https://img.shields.io/github/last-commit/archit-dwevedi/key_value?logo=github)](https://github.com/archit-dwevedi/key_value/) 
 
 ### About Problem
 
@@ -18,8 +18,8 @@ To **design a key-value pair store** REST API/CLI Tool with ability to do follow
 
 ### Pre-Requisites
 
-[![GitHub top language](https://img.shields.io/github/languages/top/arch888/key_value?label=Python&logo=Python)](https://github.com/vinitshahdeo/ParkingLot/) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/arch888/key_value?logo=github&color=teal)](https://github.com/arch888/key_value/) [![Issues](https://img.shields.io/github/issues/arch888/key_value)
-](https://github.com/arch888/key_value)
+[![GitHub top language](https://img.shields.io/github/languages/top/archit-dwevedi/key_value?label=Python&logo=Python)](https://github.com/vinitshahdeo/ParkingLot/) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/archit-dwevedi/key_value?logo=github&color=teal)](https://github.com/archit-dwevedi/key_value/) [![Issues](https://img.shields.io/github/issues/archit-dwevedi/key_value)
+](https://github.com/archit-dwevedi/key_value)
 
 The Source-Code for this project is written using Python. Make Sure you have [Python](https://www.python.org/) Installed on your PC. If you are using Windows/Mac please install from [here](https://www.python.org/downloads/).
 
@@ -47,7 +47,7 @@ Proceed to the steps below only if you have `Python` installed. If not, please r
 Open your Terminal/command prompt and clone this repository using this command.
 
 ```
-git clone https://github.com/arch888/key_value
+git clone https://github.com/archit-dwevedi/key_value
 ```
 
 Navigate (`cd`) to this folder and type following command.
